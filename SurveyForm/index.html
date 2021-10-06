@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    
+    
+</head>
+<body>
+    <img src="https://media-exp1.licdn.com/dms/image/C4D0BAQERr7Atje0AMw/company-logo_200_200/0/1606817358882?e=2159024400&v=beta&t=96UbmZTjBXtDTxtLnebyi8a25yV_12gL-ovoWQDcIuE"/>
+    <h1 style="text-align: center;">Survey Form</h1>
+    <h2 style="text-align: center;">Thank you for taking time to help us improving the platform</h2>
+    <div style = "vertical-align:middle; position:static; left:80px; top:2px;">
+        <input for="Name">Name</label>
+        <input for="Email">Email</label>
+        <input for="Age">Age</label>
+    </div>
+    
+
+    <div>
+        <label for="Your current role"><h4>What best describes your current role?</h4></label>
+        <select id="options" name="options">
+            <option value="1">Student</option>
+            <option value="2">Teacher</option>
+            <option value="3">Worker</option>
+            <option value="4">Doctor</option>
+            <option value="5">I don't want to tell you</option>
+        </select>
+    </div>
+
+    <label for="Do you want to recommend this app to your freind?"><h4>Do you want to recommend this app to your friend?</h4></label>
+    <label for="Sure">Sure</label>
+    <input id="Sure" name="Do you want to recommend this app to your freind?" type="radio" value="Sure">
+
+    <label for="Maybe">Maybe</label>
+    <input id="Maybe" name="Do you want to recommend this app to your freind?" type="radio" value="Maybe">
+
+    <label for="Nope">Nope</label>
+    <input class='class' id="Nope" name="Do you want to recommend this app to your friend?" type="radio" value="Nope">
+    
+    <div>
+        <label for="Select an option"><h4>What is your favorite feature in our app?</h4></label>
+        <select id="options" name="options">
+            <option value="1">Design</option>
+            <option value="2">Function</option>
+            <option value="3">Fast update</option>
+            <option value="4">Nothing</option>
+        </select>
+    </div>
+
+
+
+
+    <label for='improvement'>What would you like for us to improve?(select all that apply)</label>
+    <label for='improvement'>Our app design</label>
+    <input id="improvements" name="improvements" type="checkbox" value="Our app design">
+    <label for='improvement'>Update speed</label>
+    <input id="improvements" name="improvements" type="checkbox" value="Update speed">
+    <label for='improvement'>Service</label>
+    <input id="improvements" name="improvements" type="checkbox" value="Service">
+    <label for='improvement'>Download fee</label>
+    <input id="improvements" name="improvements" type="checkbox" value="Download fee">
+
+
+    <label for="comment"><h4>Do you have other education app that you use?</h4></label>
+    <input type="text" list="comments" id=comment>
+    <datalist id="comments">
+        <option value="E-education"></option>
+        <option value="Khan academy"></option>
+        <option value="Duringo"></option>
+        <option value="None"></option>
+    </datalist>
+
+    <label for="comments"><h4>Do you have any comments?</h4></label>
+    <textarea id="comments" name="comments" rows="3" cols="10">
+    </textarea>
+
+</body>
+</html>
