@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"path": "../Tk-Web"
+		},
+		{
+			"path": "../T.K - Web"
+		},
+		{
+			"path": "../T.k webpage"
+		},
+		{
+			"path": "../csspractice"
+		},
+		{
+			"path": "../CSS"
+		},
+		{
+			"path": "../css color box"
+		},
+		{
+			"path": "../Recipes.css"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "csspractice"
+	}
+}

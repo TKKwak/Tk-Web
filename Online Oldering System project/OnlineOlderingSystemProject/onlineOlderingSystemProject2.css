@@ -1,0 +1,127 @@
+*{
+
+    font-family: 'Bold', Times, serif;
+    text-align: "left";
+
+    
+}
+
+.main p {
+    color: green;
+}
+
+h1 {
+    color: black !important;
+}
+.blue {
+    color: blue;
+}
+.green {
+    color: green;
+}
+
+.mint {
+    color: #33ffe3;
+}
+
+#large-title {
+    color:black;
+}
+#article-title {
+    font-family: cursive;
+    text-transform: capitalize;
+}
+* {
+   font-size: 20;
+}
+
+.mint-box{
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 1500px;
+    height: 200px;
+}
+
+.title {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+#position-absolute {
+    background-color: red;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    left: 40px;
+}
+
+strong {
+    display: block;
+}
+
+#img1 {
+    width:400px;
+    height:200px;
+    position: fixed;
+    top: 200px;
+    left: 0px;
+}
+
+#img2 {
+    width:400px;
+    height:200px;
+    position:fixed;
+    top: 200px;
+    left: 1050px;
+}
+
+#img3 {
+    width:400px;
+    height:200px;
+    position:fixed;
+    top: 500px;
+    left:0px;
+}
+
+#img4 {
+    width:400px;
+    height:200px;
+    position:fixed;
+    top: 500px;
+    left:1050px;
+}
+
+#img5 {
+    width:200px;
+    height:200px;
+    position:fixed;
+    top: 0px;
+    left:0px;
+}
+
+p{
+    position: relative;
+     top: 400px;
+ }
+ 
+ p2{
+     position: relative;
+      top: 350px;
+      left: 1050px;
+  }
+ 
+  p3{
+     position: relative;
+      top: 650px;
+      left: -100px;
+  }
+ 
+  p4{
+     position: relative;
+      top: 650px;
+      left: 890px;
+  }
+

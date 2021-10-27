@@ -1,0 +1,33 @@
+*{
+
+    font-family: 'Times New Roman', Times, serif;
+    text-align: "left";
+    background-color: blue;
+    color: white
+    
+}
+
+.main p {
+    color: green;
+}
+
+h1 {
+    color: maroon !important;
+}
+.blue {
+    color: blue;
+}
+.green {
+    color: green;
+}
+
+#large-title {
+    color:black;
+}
+#article-title {
+    font-family: cursive;
+    text-transform: capitalize;
+}
+* {
+   font-size: 20;
+}
