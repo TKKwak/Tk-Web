@@ -101,3 +101,27 @@ strong {
     top: 0px;
     left:0px;
 }
+
+p{
+    position: relative;
+     top: 400px;
+ }
+ 
+ p2{
+     position: relative;
+      top: 350px;
+      left: 1050px;
+  }
+ 
+  p3{
+     position: relative;
+      top: 650px;
+      left: -100px;
+  }
+ 
+  p4{
+     position: relative;
+      top: 650px;
+      left: 890px;
+  }
+
